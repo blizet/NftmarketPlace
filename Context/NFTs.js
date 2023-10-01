@@ -6,7 +6,7 @@ import {ethers} from "ethers";
 const StateContext = createContext();
 
 export const StateContextProvider=({ children })=>{
-    const { contract } = useContract("0x6746BeC430354F66e2eA74ee9d7a36bf83E2555E");
+    const { contract } = useContract("contract_address");
     
  
     const address = useAddress();
